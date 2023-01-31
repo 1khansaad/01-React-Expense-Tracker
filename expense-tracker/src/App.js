@@ -28,9 +28,14 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
+
+  const onExpenseDataTransfer = (expenseData) => {
+    expenses.push(expenseData);
+    console.log(expenses);
+  };
   return (
     <div>
-      <NewExpense />
+      <NewExpense onExpenseDataHandler={onExpenseDataTransfer} />
       <Expenses data={expenses} />
     </div>
   );
