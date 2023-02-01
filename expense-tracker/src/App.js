@@ -6,25 +6,25 @@ const dummyData = [
   {
     id: "e1",
     title: "Toilet Paper",
-    amount: 1,
+    amount: 123.24,
     date: new Date(2020, 7, 14),
   },
   {
     id: "e2",
     title: "New TV (Curve)",
-    amount: 2,
+    amount: 895.23,
     date: new Date(2021, 2, 12),
   },
   {
     id: "e3",
     title: "Car Insurance",
-    amount: 3,
+    amount: 325.39,
     date: new Date(2021, 2, 28),
   },
   {
     id: "e4",
     title: "New Desk (Wooden)",
-    amount: 4,
+    amount: 412.78,
     date: new Date(2021, 5, 12),
   },
 ];
