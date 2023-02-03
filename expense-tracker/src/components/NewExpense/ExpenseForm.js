@@ -20,7 +20,7 @@ const ExpenseForm = (props) => {
     e.preventDefault();
     let data = {
       title: currentTitle,
-      amount: currentAmount,
+      amount: +currentAmount,
       date: new Date(currentDate),
     };
     props.onExpenseDataHandler(data);
